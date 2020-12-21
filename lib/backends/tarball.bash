@@ -2,7 +2,7 @@
 
 # Defaults...
 BK_CACHE_COMPRESS=${BUILDKITE_PLUGIN_CACHE_TARBALL_COMPRESS:-false}
-BK_TAR_ARGS="--warning=no-file-changed -cf"
+BK_TAR_ARGS="-cf"
 BK_TAR_EXTENSION="tar"
 BK_TAR_EXTRACT_ARGS="-xf"
 
